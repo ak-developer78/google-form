@@ -1,0 +1,5 @@
+{
+  "name": "Job Application Form Portal",
+  "description": "A professional job application form designed to mimic the Google Forms interface, featuring field validation and a restriction of one submission per device.",
+  "requestFramePermissions": []
+}
