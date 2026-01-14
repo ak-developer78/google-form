@@ -7,7 +7,7 @@ import RadioGroup from './components/RadioGroup';
 import SuccessScreen from './components/SuccessScreen';
 
 // PASTE YOUR GOOGLE APPS SCRIPT WEB APP URL HERE
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyrqTyQcFPr6t0_3M5q4cfLQkB-RiL0jubN6-KEALMjM6ehycmPzXZc1149oKsHkkcp/exec";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbz4XmJAdk6Wf8JXibpB539jsKWnz9du790l7xyyQ5AyMe-RWM8DjwevGJGWBOsaQanB/exec";
 
 const App: React.FC = () => {
   const [status, setStatus] = useState<FormStatus>(FormStatus.IDLE);
@@ -114,7 +114,7 @@ const App: React.FC = () => {
       };
 
       // If SCRIPT_URL is placeholder, simulate success for preview
-      if (SCRIPT_URL === "https://script.google.com/macros/s/AKfycbyrqTyQcFPr6t0_3M5q4cfLQkB-RiL0jubN6-KEALMjM6ehycmPzXZc1149oKsHkkcp/exec") {
+      if (SCRIPT_URL === "https://script.google.com/macros/s/AKfycbz4XmJAdk6Wf8JXibpB539jsKWnz9du790l7xyyQ5AyMe-RWM8DjwevGJGWBOsaQanB/exec") {
         console.warn("No SCRIPT_URL provided. Simulating submission...");
         await new Promise(r => setTimeout(r, 1500));
       } else {
